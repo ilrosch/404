@@ -54,7 +54,7 @@
     }
   }
   .error {
-    &-title {
+    &__title {
       font-style: normal;
       font-weight: 400;
       font-size: 26px;
@@ -64,7 +64,7 @@
       margin-top: 29px;
       margin-bottom: 10px;
     }
-    &-text {
+    &__text {
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -84,56 +84,57 @@
     position: relative;
     width: 100%;
     margin-top: 40px;
-    &__list {
+    &__lists {
       max-width: calc(50% - 50px);
       display: inline-block;
       vertical-align: top;
       &:first-child {
         margin-right: 100px;
       }
-      &--item {
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-        img {
-          width: 20px;
-          height: auto;
-          margin-right: 8px;
-        }
-        p {
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 16px;
-          color: var(--black-color);
-          a {
-            color: var(--blue-color);
-            transition: all 0.3s;
-            &:last-child {
-              color: var(--black-color);
-            }
-            &:hover {
-              color: var(--red-color);
-            }
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      img {
+        width: 20px;
+        height: auto;
+        margin-right: 8px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--black-color);
+        a {
+          color: var(--blue-color);
+          transition: all 0.3s;
+          &:last-child {
+            color: var(--black-color);
+          }
+          &:hover {
+            color: var(--red-color);
           }
         }
       }
     }
   }
-}
-.footer {
-  position: absolute;
-  bottom: 30px;
-  a {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    color: var(--grey-color);
-    transition: all 0.3s;
-    margin-right: 20px;
-    &:hover {
-      color: var(--red-color);
+  .footer {
+    position: absolute;
+    bottom: 30px;
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      color: var(--grey-color);
+      transition: all 0.3s;
+      margin-right: 20px;
+      &:hover {
+        color: var(--red-color);
+      }
     }
   }
 }

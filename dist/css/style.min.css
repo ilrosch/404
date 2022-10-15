@@ -191,7 +191,7 @@ h6 {
 .layout .search-form button:hover {
   background-color: var(--yellow-hover-color);
 }
-.layout .error-title {
+.layout .error__title {
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -201,18 +201,18 @@ h6 {
   margin-top: 29px;
   margin-bottom: 10px;
 }
-.layout .error-text {
+.layout .error__text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: var(--black-color);
 }
-.layout .error-text a {
+.layout .error__text a {
   color: var(--blue-color);
   transition: all 0.3s;
 }
-.layout .error-text a:hover {
+.layout .error__text a:hover {
   color: var(--red-color);
 }
 .layout .services {
@@ -220,47 +220,46 @@ h6 {
   width: 100%;
   margin-top: 40px;
 }
-.layout .services__list {
+.layout .services__lists {
   max-width: calc(50% - 50px);
   display: inline-block;
   vertical-align: top;
 }
-.layout .services__list:first-child {
+.layout .services__lists:first-child {
   margin-right: 100px;
 }
-.layout .services__list--item {
+.layout .services__list {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-.layout .services__list--item img {
+.layout .services__list img {
   width: 20px;
   height: auto;
   margin-right: 8px;
 }
-.layout .services__list--item p {
+.layout .services__list p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: var(--black-color);
 }
-.layout .services__list--item p a {
+.layout .services__list p a {
   color: var(--blue-color);
   transition: all 0.3s;
 }
-.layout .services__list--item p a:last-child {
+.layout .services__list p a:last-child {
   color: var(--black-color);
 }
-.layout .services__list--item p a:hover {
+.layout .services__list p a:hover {
   color: var(--red-color);
 }
-
-.footer {
+.layout .footer {
   position: absolute;
   bottom: 30px;
 }
-.footer a {
+.layout .footer a {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -269,6 +268,6 @@ h6 {
   transition: all 0.3s;
   margin-right: 20px;
 }
-.footer a:hover {
+.layout .footer a:hover {
   color: var(--red-color);
 }
