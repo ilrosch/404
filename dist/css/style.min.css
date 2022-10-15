@@ -148,7 +148,7 @@ h6 {
   display: flex;
   align-items: center;
 }
-.layout .search-icon {
+.layout .search__icon {
   width: 100px;
   height: 43px;
   margin-right: 18px;
